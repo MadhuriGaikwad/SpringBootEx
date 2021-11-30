@@ -19,4 +19,10 @@ public class ApplicationController {
 	{
 		return "E-COMMERCE APPLICATION DEVELOPMENT ";
 	}
+	
+	@GetMapping("/Address")
+	public String CsiAddress()
+	{
+		return "Pune";
+	}
 }
